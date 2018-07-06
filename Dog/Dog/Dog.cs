@@ -27,7 +27,7 @@ namespace Dog
             HerHis.Add(Gender.Male, "His");
         }
 
-        public void bark(int times)
+        public void Bark(int times)
         {
             for (int i = 0; i < times; i++)
             {
@@ -36,7 +36,7 @@ namespace Dog
             Console.WriteLine("");
         }
 
-        public string getTag()
+        public string GetTag()
         {
             // https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/conditional-operator
             string ageUnit = age == 1 ? "year" : "years";
